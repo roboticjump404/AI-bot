@@ -1,5 +1,4 @@
-#Google Drive link
-https://drive.google.com/drive/folders/1L9URY5RypoSBtoiFiiq_ajNR-EvUJPP0?usp=sharing
+
 # AI Bot
 
 ## Description
