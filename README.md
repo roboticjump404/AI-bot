@@ -2,17 +2,18 @@
 # AI Bot
 
 ## Description
-This is a prototype of an AI Bot, an interactive Python script that utilizes various natural language processing (NLP) techniques and external APIs to perform tasks such as defining words, finding synonyms and antonyms, fixing grammar errors, translating text, and converting text to speech. It serves as a versatile tool for language understanding and manipulation.
+This prototype AI Bot is an interactive Python script designed to leverage natural language processing (NLP) techniques and external APIs to enhance language understanding and manipulation. It offers a range of functionalities to assist with language tasks, including word definitions, synonyms and antonyms, grammar correction, text translation, and speech synthesis. This versatile tool aims to provide comprehensive support for various language processing needs.
 
 ## Features
-- Define a word and retrieve its definition from WordNet.
-- Get synonyms and antonyms of a word using WordNet.
-- Identify the part of speech of a word.
-- Find meanings of a word based on WordNet's hypernym relations.
-- Analyze English sentences and identify their parts of speech.
-- Fix grammar errors in English sentences using TextBlob.
-- Translate text to English or any other language using Google Translate.
-- Convert text to speech with adjustable speech rate.
+- **Define a Word**: Retrieve definitions from WordNet to understand the meaning of any word.
+- **Get Synonyms**: Find synonyms of a word using WordNet to expand vocabulary.
+- **Get Antonyms**: Identify antonyms of a word to understand its opposite meanings.
+- **Get Part of Speech**: Determine the grammatical category of a word (e.g., noun, verb, adjective).
+- **Find Meanings**: Explore the meanings of a word based on its hypernyms (general terms).
+- **Ask an English Doubt**: Analyze and identify parts of speech in English sentences to clarify grammatical doubts.
+- **Fix Grammar**: Correct grammatical errors in sentences using TextBlob for improved clarity.
+- **Translate Text**: Translate text into English or other languages using Google Translate.
+- **Convert Text to Speech**: Convert text into spoken words with adjustable speech rate using text-to-speech synthesis.
 
 ## Options
 1. **Define a word**: Enter a word to retrieve its definition.
@@ -31,22 +32,25 @@ $ python ai_bot.py
 
 Hello! This is an AI bot. How can I assist you today?
 
-Define a word
-Get synonyms
-Get antonyms
-Get part of speech
-Find meanings
-Ask an English doubt
-Fix grammar
-Translate text
-Convert text to speech
+1. Define a word
+2. Get synonyms
+3. Get antonyms
+4. Get part of speech
+5. Find meanings
+6. Ask an English doubt
+7. Fix grammar
+8. Translate text
+9. Convert text to speech
 
-Enter the option number: 1
-Enter the word to define: computer
-Definition:  an expert at calculation (or at operating calculating machines)
+Enter the option number: 8
+Enter the text to translate to English: मैं अच्छी तरह से हिंदी नहीं बोलता
+Translated text: I don't speak Hindi well
 ```
 
 ## Credits
-- NLTK: Natural Language Toolkit for NLP tasks.
-- TextBlob: Simplified text processing with NLP capabilities.
-- Googletrans: Python wrapper for Google Translate API.
+- **NLTK**: Natural Language Toolkit for performing various NLP tasks.
+- **TextBlob**: Simplified text processing library for grammatical correction and sentiment analysis.
+- **Googletrans**: Python wrapper for Google Translate API for text translation.
+- **Pyttsx3**: Text-to-speech conversion library for generating spoken text.
+
+---
